@@ -237,11 +237,6 @@ body {
   color: white;
 }
 
-/*Prevents text from distoring when opening & closing*/
-.sidenav a{
-	white-space: nowrap;
-}
-
 /* width */
 ::-webkit-scrollbar {
   width: 10px;
