@@ -1,0 +1,265 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+	margin: -10px 0px 0px -10px;
+}
+
+li {
+  float: left;
+	
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: black;
+}
+
+.active {
+  background-color: black;
+	color: white;
+}
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+body {
+  font-size: 1.2em;
+}
+
+#outside {
+  background-color: lightgoldenrodyellow;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 70%;
+  /* To see the limits of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  
+}
+#survey-form {
+  background-color: rgba(0,0,0,0.75);
+	border: rgba(0,0,0,1.00);
+	border-radius: 1px;
+}
+
+fieldset { 
+  border:1px solid lightgray;
+  margin: 10px;
+ }
+
+legend {
+  font-weight: 700;
+}
+
+a.white{
+  color:white;
+}
+
+#number {
+  width: 150px;
+}
+
+
+div + div {
+  margin-top: 1em;
+  }
+
+/* label {
+  /* To make sure that all label have the same size and are properly align */
+  /* display: inline-block; */
+  /* width: 80px; */
+  /* text-align: right; */
+} */
+
+input, textarea {
+  /* To make sure that all text field have the same font settings
+     By default, textarea are set with a monospace font */
+  /* font: 1em sans-serif; */
+
+  /* To give the same size to all text field */
+  width: 200px;
+
+/*   -moz-box-sizing: border-box;
+       box-sizing: border-box; */
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highligh on active elements */
+  border-color: OrangeRed;
+}
+
+textarea {
+  /* To properly align multiline text field with their label */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+
+  /* To allow users to resize any textarea vertically
+     It works only on Chrome, Firefox and Safari */
+  resize: vertical;
+}
+
+
+h1 {
+	text-align: center;
+	font-size: 40px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	
+	
+}
+
+p3 {
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	
+	
+}
+
+p4 {
+	font-size: 30px;
+	font-weight: bold;
+	margin-left: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	
+	
+}
+p {
+	margin-left: 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	
+	
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	
+	
+}
+
+p6 {
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	
+	
+}
+
+body, html {
+  height: 100%;
+}
+
+body {
+  background-image: url('background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: #00000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #00000000;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: #00000000;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+
+.sidenav a:hover {
+  color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000; 
+}
+ 
+/* Handle */w
+::-webkit-scrollbar-thumb {
+  background: #2F2F2F; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffff00; 
+}
+
+a  {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.surveyform {
+}
