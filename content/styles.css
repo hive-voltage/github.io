@@ -235,6 +235,10 @@ body {
 
 .sidenav a:hover {
   color: white;
+}
+
+/*Prevents text from distoring when opening & closing*/
+.sidenav{
 	white-space: nowrap;
 }
 
