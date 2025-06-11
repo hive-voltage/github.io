@@ -238,7 +238,7 @@ body {
 }
 
 /*Prevents text from distoring when opening & closing*/
-.sidenav{
+.sidenav a{
 	white-space: nowrap;
 }
 
