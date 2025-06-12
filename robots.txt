@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: locations/template.html
+Disallow: /locations/template.html
 
-Sitemap: htpps://hivevoltage.com.au/sitemap.xml
+Sitemap: htpps://www.hivevoltage.com.au/sitemap.xml
