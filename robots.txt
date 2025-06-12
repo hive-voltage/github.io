@@ -1,4 +1,4 @@
 User-agent: *
-Disallow: 
-Disallow: /cgi-bin/
+Disallow: locations/template.html
+
 Sitemap: htpps://hivevoltage.com.au/sitemap.xml
